@@ -64,4 +64,5 @@ function generateMarkdown(data) {
 `;
 }
 
+// export this js to index.js
 module.exports = generateMarkdown;
