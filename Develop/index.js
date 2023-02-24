@@ -62,7 +62,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions)
     .then((data) => {
-        fs.writeFile('./README.md', generateMarkdown(data), (err) =>
+        fs.writeFile('./dist/README.md', generateMarkdown(data), (err) =>
             err ? console.log(err) : console.log('Successfully created README.md in your directory')
         );
     });
