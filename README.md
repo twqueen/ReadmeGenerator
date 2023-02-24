@@ -3,6 +3,9 @@
 ## Description
 This project is to help those of us who do not have the time to write out our own markdown file from scratch. It is very simple to use: just answer a few questions and a markdown will be generated. Only thing is there will be no formatting. Everything will be a generic paragraph. But upside is you won't need to worry about missing a section
 
+Tips on choosing a license: https://choosealicense.com/
+
+
 ## Installation
 Please do a npm installation prior to running the script.
 `npm i inquirer@8.2.4`
@@ -12,6 +15,10 @@ Recent version of inquirer will not work with this tool.
 
 
 ## Usage
+Sample video link: https://drive.google.com/file/d/1zP66uoT8M3Ky3rJSZJ9Au5C1iUEchV_y/view
+
+![gif of application walkthrough](./Develop/utils/md-generator-walkthrough.gif)
+![screenshot of sample markdown](./Develop/utils/Sample-md-screenshot.png)
 
 ## Licenses
 MIT License
